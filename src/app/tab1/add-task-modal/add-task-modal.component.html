@@ -1,0 +1,40 @@
+<ion-header translucent>
+  <ion-toolbar>
+    <ion-title>Add Task</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="dismiss()">Close</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content fullscreen class="container-add">
+  <ion-card>
+    <ion-card-header class="header-card">
+      <ion-card-title>Insert the information neccessary</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content [formGroup]="task">
+      <ion-item>
+        <ion-label position="floating">Title of the Task</ion-label>
+        <ion-input formControlName="title"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Description of the Task</ion-label>
+        <ion-input formControlName="description"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <span position="fixed">When is this task for?</span>
+      </ion-item>
+      <ion-item class="container-date">
+        <ion-datetime formControlName="taskDate" locale="ro-RO"></ion-datetime>
+      </ion-item>
+
+      <ion-item class="container-btn">
+        <div class="container-btn">
+          <ion-button color="primary" expand="block" fill="outline" (click)="addTask()">Add</ion-button>
+          <ion-button color="danger" expand="block" fill="outline" (click)="dismiss()">Close</ion-button>
+        </div>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

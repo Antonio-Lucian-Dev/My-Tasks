@@ -1,0 +1,36 @@
+.header-card {
+  margin-bottom: 50px;
+}
+
+.container-add {
+  //transform: translateY(16%);
+}
+
+.container-btn {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  ion-button {
+    margin-right: 10px;
+  }
+}
+
+ion-item {
+  margin-bottom: 20px;
+}
+
+.container-btn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+}
+
+.container-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

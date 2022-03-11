@@ -1,0 +1,21 @@
+.container-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0px, 50%);
+}
+
+.container-tasks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0px, 50%);
+}
+
+.container-no-task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  margin-bottom: 20px;
+}

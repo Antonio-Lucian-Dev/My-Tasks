@@ -1,0 +1,44 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="title">
+      <ion-icon name="chevron-back-outline" (click)="popFromNav()"></ion-icon>
+      About
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">About</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-content>
+      <ion-row>
+       <span class="about">This application was created to the intention to help people with it's task.
+        If you have some bug to reveal or some improvement for the app, you can contact us at this email:
+        antonio.popa.dev@gmail.com</span>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-row class="container-social-title">
+   <ion-col size="11">
+    <span class="social-title">Our social</span>
+   </ion-col>
+  </ion-row>
+  <ion-row class="container-social">
+    <ion-col>
+      <a href="https://www.facebook.com/AntonioLucian24" target="_blank">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a>
+      <a href="https://www.instagram.com/antonio_lucian_13" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+      <a href="https://twitter.com/AsuSoftware" target="_blank">
+        <ion-icon name="egg-outline"></ion-icon>
+      </a>
+    </ion-col>
+  </ion-row>

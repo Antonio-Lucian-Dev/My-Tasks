@@ -1,0 +1,41 @@
+ion-card {
+  margin-top: 20px;
+}
+
+.about {
+  font-size: 17px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  ion-icon {
+    margin-right: 5px;
+    font-size: 25px;
+    transform: translateY(20%);
+  }
+}
+
+.card-title {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.container-social-title {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.social-title {
+  font-size: 20px;
+}
+
+.container-social {
+  margin-top: 10px;
+  margin-left: 10px;
+
+  ion-icon {
+    font-size: 25px;
+    margin-right: 10px;
+  }
+}
